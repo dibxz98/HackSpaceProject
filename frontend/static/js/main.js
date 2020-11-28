@@ -10,6 +10,8 @@ menuToggler.addEventListener('click', function () {
     body.classList.toggle('open');
 });
 
+
+
 //Scroll reveal
 
 window.sr = ScrollReveal();
