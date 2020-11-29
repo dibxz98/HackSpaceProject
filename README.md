@@ -24,3 +24,6 @@ mkdir -p frontend/static
 Start up your server:
 node server.js
 LOCALHOST:5060
+
+DEPLOY WITH HEROKU: 
+https://hackspaceproject.herokuapp.com/
