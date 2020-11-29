@@ -5,10 +5,14 @@ const selectElement = function (element) {
 
 let menuToggler = selectElement('.menu-toggle');
 let body = selectElement('body');
+let containerMenu = document.getElementById('menu');
+
 
 menuToggler.addEventListener('click', function () {
 	body.classList.toggle('open');
 });
+
+
 
 
 //Scroll reveal

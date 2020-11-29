@@ -65,6 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener("click", e => {
         if(e.target.matches("[data-link]")) {
             e.preventDefault();
+            document.body.classList.toggle('open');
             navigateTo(e.target.href)
         }
     })
